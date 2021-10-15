@@ -32,6 +32,7 @@ public class ProductDao {
 
     public void deleteAll() {
         em.createQuery("DELETE FROM Product").executeUpdate();
+        em.createQuery("DELETE FROM Manufacturer").executeUpdate();
     }
 
     public void saveOne(Product product) {

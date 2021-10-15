@@ -1,4 +1,4 @@
-package com.example.hibernatejava.entity;
+package com.example.hibernatejava.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

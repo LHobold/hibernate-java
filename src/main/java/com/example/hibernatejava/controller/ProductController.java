@@ -8,12 +8,10 @@ import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 
 import com.example.hibernatejava.entity.Product;
-import com.example.hibernatejava.entity.Response;
+import com.example.hibernatejava.model.Response;
 import com.example.hibernatejava.service.ProductService;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpHeaders;
-import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.DeleteMapping;
